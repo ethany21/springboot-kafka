@@ -13,10 +13,8 @@ import java.time.LocalDate;
 @Builder
 public class Student {
 
-    private Integer studentId;
-    private String name;
-    private String major;
-    private LocalDate birthDate;
-
+    private Integer bookId;
+    private String bookName;
+    private String bookAuthor;
 
 }

@@ -11,6 +11,6 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Class {
 
-    private Integer id;
-    private Student student;
+    private Integer libraryEventId;
+    private Student book;
 }
