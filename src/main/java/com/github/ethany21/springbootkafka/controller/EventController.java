@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class EventController {
 
-    @PostMapping("/v1/libraryEvent")
+    @PostMapping("/v1/libraryevent")
     public ResponseEntity<Class> postAttendanceEvent(@RequestBody Class aClass){
         return ResponseEntity.status(HttpStatus.CREATED).body(aClass);
     }
